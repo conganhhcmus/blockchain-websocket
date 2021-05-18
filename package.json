@@ -5,12 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --watch dev -e js app.js 8080 http://localhost:8080",
-    "node_1": "nodemon --watch dev -e js app.js 3001 http://localhost:3001",
-    "node_2": "nodemon --watch dev -e js app.js 3002 http://localhost:3002",
-    "node_3": "nodemon --watch dev -e js app.js 3003 http://localhost:3003",
-    "node_4": "nodemon --watch dev -e js app.js 3004 http://localhost:3004",
-    "node_5": "nodemon --watch dev -e js app.js 3005 http://localhost:3005"
+    "start": "nodemon --watch dev -e js app.js 8080 http://localhost:8080"
   },
   "repository": {
     "type": "git",
