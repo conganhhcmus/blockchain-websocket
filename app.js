@@ -481,8 +481,6 @@ io.on("connection", (socket) => {
      * Description: get a message and emit it to all users
      */
     socket.on("getNewMessage", (message) => {
-        //message = message.toString();
-        //message = message.replace(/</g, "&lt;").replace(/>/g, "&gt;");
         io.emit("newMessage", message);
     });
 
@@ -663,5 +661,5 @@ app.get("/address/:address", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-    res.sendFile("./Front/index.html", { root: __dirname });
+    res.sendFile("./views/index.html", { root: __dirname });
 });
